@@ -1,0 +1,107 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url("../image/destruction.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+header div {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    transform-origin: top left;
+    transform: rotate(-7deg);
+}
+header h1 {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    text-shadow: -1px 1px 0px #000000, -2px 2px 0px #000000, -3px 3px 0px #000000, -4px 4px 0px #000000, -5px 5px 0px #000000, -6px 6px 0px #000000, -7px 7px 0px #000000, -8px 8px 0px #000000, -9px 9px 0px #000000;
+
+    font-size: 5vw;
+}
+.signature {
+    font-family: 'Carter One', cursive;
+    font-size: 36px;
+    color: black;
+    text-shadow: 0px 0px 0px transparent;
+}
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    padding: 0;
+    margin: 0;
+}
+.content {
+    margin: 0 5%;
+    padding: 15vh 0 25vh 0;
+    font-size: 24px;
+}
+.body {
+    background: #F7931E;
+    width: 100%;
+    font-family: 'Carter One', cursive;
+}
+section {
+    position: relative;
+}
+section h1 {
+    font-size: 40px;
+}
+section h2 {
+    padding: 0;
+    margin: 0;
+}
+.intro {
+    padding: 10% 10%;
+    font-size: 24px;
+}
+.large-txt {
+    text-shadow: -1px 1px 0px white;
+    font-size: 40px;
+}
+.myth-tag {
+    padding: 10px 20px;
+    display: inline-block;
+    background: black;
+    color: white;
+    margin: auto 0px;
+    font-size: 36px;
+    /* box-shadow: 1px 1px 10px black; */
+
+}
+.myth-title {
+    margin: 20px auto;
+    padding: 20px 40px;
+    text-shadow: -1px 1px 0px white, -2px 2px 0px white, -3px 3px 0px white;
+    text-align: center;
+}
+.myth1 {
+    background: rgb(96, 230, 253);
+}
+.myth2 {
+    background: #F7931E;
+}
+.myth3 {
+    background: rgb(93, 255, 241);
+}
+.myth4{
+    background: #F7931E;
+}
+.myth5 {
+    background: rgb(96, 230, 253); 
+}
+
+
+
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+}
